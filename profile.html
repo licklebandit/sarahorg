@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sarah's saloon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .parentdiv1{
+            float: left;
+            width: 50%;
+        }
+        .parentdiv2{
+            float: left;
+            width: 50%;
+        }
+        li {
+          list-style-type: none;
+        }
+          .fa {
+            margin-right: 20px;
+          }
+          .fa:hover {
+            color: chocolate;
+          }
+          .dropdown {
+            position: relative;
+            display: contents;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: antiquewhite;
+            min-width: I60px;
+            box-shadow: opx 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+          }
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          .right {
+            float: right;
+            margin-bottom: 50px;
+            margin-right: 50px;
+          }
+          .left {
+            float: left;
+            margin-left: 50px;
+          }
+          @media (max-width: 600px) {
+            .div {
+              width: 100%;
+            }
+          }
+
+          @media (max-width: 350px) {
+            .parentdiv1{
+              font-size: 10px;
+          }
+          .parentdiv2{
+            font-size: 10px;
+          }
+
+          .h1{
+            font-size: 20px;
+          }
+
+
+          .sec1{
+            display: block;
+          }
+          }
+          body {
+            font-style: italic;
+          }
+
+    </style>
+</head>
+<body style="background-color:pink;">
+    <header align="center">
+        <h1 class="h1" style="color:rgb(43, 46, 226)" >SALOON'S ID</h1>
+    </header>  
+    <div class="dropdown"><button class="btn"><i class="fa fa-bars"></a></i> Menu</button>
+      <br>
+        <div class="dropdown-content" >
+          <li><a href="index.html" style="color: black;">HOME PAGE</a></li>
+          <li><a href="profile.html" style="color: blue;">ABOUT US</a></li>
+          <li><a href="gallery.html" style="color: blueviolet;">GALLERY</a></li>
+          <li><a href="services.html" style="color: blueviolet;">SERVICES</a></li>
+        </div>
+      </div>
+    <section class="sec1">
+      <div class="parentdiv1">
+        <p><h2 text-align="center" style="color:rgb(43, 153, 226)">BACKGROUND INFORMATION</h2></p>
+        <p><h3>Started in 2023</h3></p>
+        <p><h3>By NABUUMA SARAH</h3></p>
+        <P><h3>Venue: BUGEMA UNIVERSITY</h3></P>
+        <P><h3>Theme: Your beauty is our pride</h3></P>
+      </div>
+      <div class="parentdiv2">
+        <p><h2 text-align="center" style="color:rgb(64, 226, 43)">CONTACT INFORMATION</h2></p>
+        <p><h3>Tel: 0709787550</h3></p>
+        <p><h3>Email: licklebandit@gmail.com</h3></p>
+        <P><h3>Tiktok: @licklebandit</h3></P>
+        <p><h3>reach us on</h3></p>
+        <a target="_blank" href="https://wa.me/256709787550"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+        <a href="mailto:licklebandit@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+      </div>
+    </section>
+</body>
+<br>
+<footer>
+  <a href="index.html" style="color: black;"><button class="left"> previous</button></a>
+  <a href="branches.html" style="color: black;"><button class="right">>next</button></a>
+</footer>
+</html>

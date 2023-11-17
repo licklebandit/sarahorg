@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calebs Investments limited</title>
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+          }
+          section {
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            place-items: center;
+          }
+          .row {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .column {
+            width: 100%;
+            padding: 0 1em 1em 1em;
+            text-align: center;
+          }
+          .card {
+            width: 100%;
+            height: 100%;
+            padding: 2em 1.5em;
+            background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+            background-size: 100% 200%;
+            background-position: 0 2.5%;
+            border-radius: 5px;
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+            transition: 0.5s;
+          }
+          .icon-wrapper {
+            background-color: #2c7bfe;
+            position: relative;
+            margin: auto;
+            font-size: 30px;
+            height: 2.5em;
+            width: 2.5em;
+            color: #ffffff;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            transition: 0.5s;
+          }
+          .card:hover {
+            background-position: 0 100%;
+          }
+          .card:hover .icon-wrapper {
+            background-color: #ffffff;
+            color: #2c7bfe;
+          }
+          .card:hover h3 {
+            color: #ffffff;
+          }
+          .card:hover p {
+            color: #f0f0f0;
+          }
+          @media screen and (min-width: 768px) {
+            section {
+              padding: 0 2em;
+            }
+            .column {
+              flex: 0 50%;
+              max-width: 50%;
+            }
+          }
+          @media screen and (min-width: 992px) {
+            section {
+              padding: 1em 3em;
+            }
+            .column {
+              flex: 0 0 33.33%;
+              max-width: 33.33%;
+            }
+          }
+          li {
+            list-style-type: none;
+          }
+          .fa {
+            margin-right: 20px;
+          }
+          .fa:hover {
+            color: chocolate;
+          }
+          .dropdown {
+            position: relative;
+            display: contents;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: I60px;
+            box-shadow: opx 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+          }
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          .left {
+            margin-bottom: 50px;
+          }      
+    </style>
+  </head>
+  <body style="background-color: rgb(208, 255, 0);">
+    <h1 style="color: blue;" align="center">MY SERVICES</h1>
+    <div class="dropdown"><button class="btn"><i class="fa fa-bars"></a></i> Menu</button>
+      <div class="dropdown-content" >
+        <li><a href="index.html" style="color: black;">HOME PAGE</a></li>
+        <li><a href="profile.html" style="color: blue;">ABOUT US</a></li>
+        <li><a href="products.html" style="color: brown;">PRODUCTS</a></li>
+        <li><a href="branches.html" >BRANCHES</a></li>
+        <li><a href="gallery.html" style="color: blueviolet;">GALLERY</a></li>
+        <li><a href="management.html" style="color: rgb(43, 226, 73);">MANAGEMENT</a></li>
+        <li><a href="services.html" style="color: blueviolet;">SERVICES</a></li>
+      </div>
+    </div>
+    <section>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h2><a target="_blank" href="buyonline.html" style="color: rgb(43, 226, 73);">ONLINE BUSINESS</a></h2>
+            <P><h3>Dear customer you can buy online on a cheap cost, kindly tap on the link and send your request to our platform</h3></P>    
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h2>TRANSPORT SERVICES</h2>
+            <P><h3>Customer waafe omulungi, we offer free transport to a customer who buy our products in large quantities</h3></P>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h2>DISCOUNT</h2>
+            <P><h3>Hello customer, we offer a cash discount of 15% to the who buys goods worth 5m</h3></P>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h2>CUSTOMER CALLS</h2>
+            <P><h3>Dear customer, we offer free calls to the Business on our Tel no +256 771442876/ 755362567</h3></P>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-android"></i>
+            </div>
+            <h2>OPERATING SYSTEM UPDATE</h2>
+            <p>
+              We can update the operating system softwares of all kinds forexample the Linux and windows operating systems and i can guide you on how to install and the best operating system for your machine
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-location"></i>
+            </div>
+            <h2>DEVICE TRACKING</h2>
+            <p>
+             We can help you locate your lost device through my excellent functioning softwares. To the people that bought their devices with me this service is free of charge and to other its only and a reasonable cost
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer align="center">
+      <h3 style="color:rgb(255, 0, 128)" >Tel: 0771442876, 0755362567</h3>
+      <a target="_blank" href="https://www.facebook.com/Natukunda Caleb/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <a target="_blank" href="https://www.twitter.com/Natukunda Caleb/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a target="_blank" href="https://wa.me/256771442876"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+    <a href="mailto:natukundacaleb060@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+      <h3 align="center" style="color: rgb(255, 145, 0);" ><b>ORDER WITH DELIVERLY</b></h3>
+      <br>
+      <a href="management.html" style="color: black;"><button class="left"> previous</button></a>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sarah's saloon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+          li {
+            list-style-type: none;
+          }
+          .dropdown {
+            position: relative;
+            display: contents;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: aqua;
+            min-width: I60px;
+            box-shadow: opx 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+          }
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+          }
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          .right {
+            float: right;
+            margin-bottom: 50px;
+            margin-right: 50px;
+          }
+          body {
+            background-image: url(25.jpg);
+          }
+          h2 {
+            font-style: italic;
+            justify-content: center;
+            animation: 20s rotate linear infinite;
+            transform-origin: center;
+          }
+          @keyframes rotate {
+            to{
+              transform: rotate(50deg);
+            }
+          }
+    </style>
+</head>
+<body>
+    <header align="center">
+        <h1 style="color:rgb(255, 230, 0)" >SARAH'S SALOON</h1>
+        <h3 style="color:rgb(43, 46, 226)" >Email: licklebandit@gmail.com</h3>
+        <h3 style="color:rgb(255, 0, 128)" >Tel: 0709787550</h3>
+        <h3 align="center" style="color: rgb(255, 145, 0);"><b>CUSTOMERS IMPRESSION</b></h3>
+    </header>   
+      <div class="dropdown"><button class="btn"><i class="fa fa-bars"></a></i> Menu</button>
+        <div class="dropdown-content" >
+          <li><a href="index.html" style="color: black;">HOME PAGE</a></li>
+          <li><a href="profile.html" style="color: blue;">ABOUT US</a></li>
+          <li><a href="gallery.html" style="color: blueviolet;">GALLERY</a></li>
+          <li><a href="services.html" style="color: blueviolet;">SERVICES</a></li>
+        </div>
+      </div>
+    <br><div align="center" class="nav">
+    </div>
+    <center>
+    <p><h2 style="color: blue;">Hello world, welcome to Sarah's Beauty Saloon. Feel at home</h2></p>
+    </center>
+</body>
+<footer>
+  <a href="profile.html" style="color: black;"><button class="right">>next</button></a>
+</footer>
+</html>
